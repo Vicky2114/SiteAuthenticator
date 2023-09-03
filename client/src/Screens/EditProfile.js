@@ -29,17 +29,18 @@ const EditProfile = () => {
         <h1>Edit Profile</h1>
         <div className='editAvatar'>
           <img className='avatar' src={profileImageShow.length ? profileImageShow : "https://www.hindubhagwan.com/Gallery/images/portfolio/full/lord_hanuman_angry_image.jpg"} alt="" />
-          <i class="fa-solid fa-pen" style={{ color: "white", marginTop: "7rem", fontSize: "25px" }} onClick={() => setDialog(true)}></i>
+          <i class="fa-solid fa-pen"  onClick={() => setDialog(true)}></i>
           {
             dialog ?
               <div className='dialog'>
                 <div className='alignRight'><i class="fa-solid fa-xmark fa-xl" onClick={() => setDialog(false)}></i></div>
-                <Avatar
-                  width={400}
-                  height={300}
-                  onClose={onClose}
-                  onCrop={onCrop}
-                />
+                  <Avatar
+                    width={300}
+                    height={250}
+                    onClose={onClose}
+                    onCrop={onCrop}
+
+                  />
                 <button onClick={saveImage}>Save</button>
               </div> : ""
           }

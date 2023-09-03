@@ -163,6 +163,10 @@
     flex-direction: column;
   }
 
+  .homeCarousel{
+    width: 50vw;
+  }
+
   .homeCarousel h5 {
     width: 90vw;
     padding-left: 2rem; 
@@ -171,8 +175,8 @@
 
   .carouselStyle {
     width: 80vw;
-    height: 25vh;
-    margin-left: 6rem ;
+    height: auto;
+    margin-left: 2rem ;
   }
 
   .homeBtnContainer{
@@ -197,5 +201,10 @@
   .intro img{
     width:10rem;
     height: 10rem;
+  }
+
+  .homeCarousel h1 {
+    width: 100%;
+    /* font-size: 22px; */
   }
 }

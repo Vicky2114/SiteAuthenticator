@@ -5,8 +5,8 @@
 	padding: 0;
 }
 .body {
-	--bg: #e3e4e8;
-	--fg: #17181c;
+	--bg: #17181c;
+	--fg: #e3e4e8;
 	--dur: 8s;
 	font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
 }

@@ -68,3 +68,8 @@
     align-items: center;
   }
 }
+
+.userimg {
+  height: 28px;
+  width: 28px;
+}
