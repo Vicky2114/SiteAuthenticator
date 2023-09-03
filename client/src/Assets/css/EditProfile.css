@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .outerProfile h1{
@@ -88,16 +88,45 @@
 
 .profileInput {
   width: 20rem;
-  border-radius: 8px ;
+  /* border-radius: 8px ; */
   padding: 4px 8px;
+  border-bottom: 1px solid white;
+  color: white;
 }
 
 .profileInput:focus {
   padding: 6px 12px;
   border-radius: 20px ;
+  border: 1px solid white;
 }
 
 .profileItem {
   font-size: 20px;
   margin: 2vh;
+}
+
+i.fa-solid.fa-pen{
+  color: white;
+  margin-top: 7rem;
+  font-size: 25px;
+}
+
+
+@media(max-width:415px){
+  .editAvatar{
+    display:block;
+  }
+
+  .dialog{
+    margin-top: 8px;
+  }
+
+  .textUpdate{
+    width: 90vw;
+    margin-bottom: 4rem;
+  }
+
+  .profileInput {
+    width: 17rem;
+  }
 }
